@@ -1,0 +1,98 @@
+body{
+    background-color: #f3f3f3;
+    background-image: url('/Web Design/img/rabbit.svg'), url('/Web Design/img/Footer.svg'), url('/Web Design/img/Purple.svg'),url('/Web Design/img/Orange.svg');
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: auto,1600px 800px,1600px 800px;
+    background-position: 100px 660px,-40px 660px,-39px -40px, -40px 200px;
+}
+.z_tbdr{
+    border: 1px dashed black;
+}
+header{
+    min-height: 130px;
+}
+header .navbar-toggler{
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.fa-bars{
+    color: #fff;
+    border: none;
+}
+.z_main{
+    min-height: 900px;
+}
+.z_header_nav > li > a{
+    padding: 61px 32px 20px 32px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.active{
+    background: #573a70;
+    color: #ffb900 !important;
+    
+}
+.active:hover{
+    color: #ffb900;
+}
+.z_circle{
+    width: 37px;
+    height: 37px;
+    border-radius: 37px;
+}
+.z_soft_pink{
+    background: #744c97;
+}
+.z_userlink{
+    color: #e8c8ed;
+}
+.mycolor > h4{
+    font-family: 'Nunito', sans-serif;
+}
+.mycolor *{
+    color: #3e3d5f !important;
+    
+}
+.z_panel{
+    min-height: 180px;
+    background: #424d83;
+}
+.z_panel1, .z_panel3{
+    background-image: url('/Web Design/img/cloud10.png');
+    background-repeat: no-repeat;
+    background-position: 80% 15%;
+}
+.z_panel2, .z_panel4{
+    background-image: url('/Web Design/img/page1.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+.z_panel:hover{
+    height: 465px;
+    background: #798ce7;
+    cursor: pointer;
+}
+.z_panel:hover > div{
+    display: block !important;
+}
+.z_panel1_c1{
+    transition: all .3s linear;
+    min-height: 252px;
+    background: #5264bb;
+}
+header .dropdown-menu a:hover{
+    background: #ffb900;
+}
+@media screen and (max-width: 992px){
+    .z_header_nav{
+        background: #573a70 !important;
+    }
+    .z_header_nav a{
+        padding-left: 30px !important;
+        border-bottom: 1px solid #744c97;
+        border-radius: 0px !important;
+    }
+}
